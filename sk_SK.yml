@@ -1,0 +1,109 @@
+#Translated by Kociik_CZ, on spigot KockaHraje
+#Translate not 100%
+#Version 1.0
+
+report_wait: "Please, wait one second between 2 report"
+
+invalid_player: "%arg% nie je hráč !"
+not_forget_player: "Don't forget the player !"
+not_permission: "&cNemáte dostatočné oprávnia k tomuto príkazu."
+only_player: "Toto môže vykonať len Hráč."
+well_suspect: "%players% je suspectovaný !"
+none: "nič"
+console: "Konzola"
+fake_entities: "Falošná entitta(Hráč)"
+
+kick: "&a[&2Negativity&a]&c Boli ste vyhodený zo servera pre používanie cheatu: (%cheat%)"
+
+lang:
+  invalid_lang: "%arg% nie je jazyk !"
+  help: "/lang <new jazyk> : Zmení jazyk na požadovaný jazyk"
+  current: "Aktuálny jazyk je : %lang%"
+  language_set: "&a[&2Negativity&a] &7Spravy z Negativity sú odteraz v Angličtine"
+  translation_disabled: "&a[&2Negativity&a] &cPreklady pre hráčov su vypnuté"
+ban:
+  kick_time: "&cBan z dôvodu %reason% vyprší %time% ban udelil: %by%."
+  kick_def: "&cBoli ste permanentne zabanovaný z dovodu %reason% ban udelil %by%."
+  help:
+  # For the time, there is:
+  # y : roky
+  # mo : mesiace
+  # d : dni
+  # h : hodiny
+  # m : minúty
+  # s : sekundy
+  #
+  - "/nban <hráč> <def | čas (ex: 2h5d)> <dôvod> : Zabanuje danného hráča"
+  well_ban: "&a[&2Negativity&a]&c %name% bol zabanovaný z dốvodu %reason%."
+unban:
+  well_unban: "&a[&2Negativity&a]&c %name% bol odbanovaný."
+  not_banned: "&c%name% nie je zabanovaný."
+  not_exact: "%arg% isn't exact valid name of banned player."
+  help: "/nunban <player> : Odbanuje danného hráča."
+kick:
+  help: "/kick <player> <reason> : Vyhodí danného hráča"
+  well_kick: "&a[&2Negativity&a]&c %name% bol vyhodený z dôvodu %reason%."
+  kicked: "Boli ste vyhodený zo servera hráčom %name% dôvod %reason%"
+report:
+  report_usage: "/report <name> <reason>"
+  well_report: "&a%name% úspešne nahlásený !"
+  report_message: "&a[&2Negativity&a] &c%name% &7boli ste nahlásený hráčom &c%report% dôvod &7for &c%reason%"
+negativity:
+  alert: "&a[&2Negativity&a] &c%name%&7 pravdepodobne používa tento cheat: &c%cheat% &7(&2Pravdepodobnosť: %reliability%%&7) !"
+  alert_multiple: "&a[&2Negativity&a] &c%name%&7 pravdepodne používa tento cheat &c%cheat% %nb% times &7(&2Pravdepodonosť: %reliability%%&7) !"
+  alert_hover: "&6Pravdepodobnosť: %reliability%%\nPing/odozva: %ping%"
+  no_alerts: "&a[&2Negativity&a] Žiadne upozornenia."
+  reload_done: "&a[&2Negativity&a] Plugin sa úspešne znovunačítal."
+  verif:
+    invalid_cheat: "%arg% neznámy cheat!"
+    start: "&a[&2Negativity&a] &7Spúšťam analýzu %name% na cheat: %cheat%"
+    start_all: "&a[&2Negativity&a] Spúštam kompletnú analýzu hráča : %name%"
+    start_none: "&a[&2Negativity&a] &cCould not start analysis because no valid cheats are given"
+    help:
+      - "/negativity verif <player> [cheats...] : Spustí verifikáciu (pre všetko ak nie je definované)"
+      - "/negativity <player> : Zobrazí informácie o dannom Hráčovi"
+inventory:
+  close: "Zavrieť"
+  back: "Späť"
+  reset_alert: "Vymazať upozornenia"
+  main:
+    freeze: "&a[&2Negativity&a] %name% vás zamrazil"
+    unfreeze: "&a[&2Negativity&a] Odmrazil vás %name%"
+    actual_click: "Aktuálne kliknutia : %clicks%"
+    max_click: "Maximálne kliknutia : %clicks%"
+    last_click: "Posledné kiknutie : %clicks%"
+    ping: "Hráč %name% má odozvu / ping: %ping%"
+    see_inv: "otovrenie inventára %name%"
+    teleportation_to: "Teleportuje k %name%"
+    freezing: "Zamrazí %name%"
+    active_detection: "Zobrazí aktívnu detekciu hráča %name%"
+    see_alerts: "Zobrazí všetky upozornenia pre hráča %name%"
+    mcleaks_indicator:
+      positive: "&cPoužíva MCLeaks"
+      negative: "&aNepoužíva MCLeaks"
+      description: "&7MCLeaks poskytuje originálne (kradnuté) Minecraft Klienty zdarma"
+  detection:
+    name_inv: "Active detection"
+    no_active: "No active detection for %name%"
+  alerts:
+    item_name: "Alerts for %exact_name% : %warn%"
+    inv_name: "Upozornenia"
+  mod:
+    night_vision: "Nočné videnie"
+    invisible: "Neviditelnosť"
+    random_tp: "Náhodný Teleport"
+    clear_inv: "Vymazanie inventára"
+    inv_cleared: "Inventor bol vymazaný !"
+    vision_removed: "Nočné videnie bolo vypnuté"
+    vision_added: "Nočné videnie bolo zapnuté"
+    now_invisible: "Si neviditelný"
+    no_longer_invisible: "Už nie si neviditelný"
+    you_are_freeze: "Boli ste zamrazený !"
+    cheat_manage: "Cheat manager"
+  manager:
+    enabled: "&aZapnuté"
+    disabled: "&cVypnuté"
+    setBack: "Cancels the last action of the cheat when one is detected: &l%back%"
+    autoVerif: "Automatická kontrola: &l%auto%"
+    allowKick: "Vyhodiť hráčov z cheatmi: &l%allow%"
+    setActive: "Zapnuté Cheaty: &l%active%"
