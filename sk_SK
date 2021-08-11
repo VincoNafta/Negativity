@@ -1,0 +1,105 @@
+report_wait: "Prosím počkajte ešte jednu sekundu pred druhým reportom"
+
+invalid_player: "%arg% nie je hráč !"
+not_forget_player: "Nezabudnite na hráča !"
+not_permission: "&cNa túto akciu nemáte dostatočné oprávnenie."
+only_player: "Túto akciu môže vykonať len hráč."
+well_suspect: "%players% has well suspected !"
+none: "none"
+console: "Administrator"
+fake_entities: "Fake players"
+
+kick: "&a[&2Negativity&a]&c Boli ste vyhodený za používanie cheatov(%cheat%)"
+
+lang:
+  invalid_lang: "%arg% je neznámy jazyk !"
+  help: "/lang <jazyk> : Zmení pôvodný jazyk"
+  current: "Aktuálny jazyk je %lang%"
+  language_set: "&a[&2Negativity&a] &7The messages of Negativity are now in english"
+  translation_disabled: "&a[&2Negativity&a] &cPer-player translations are disabled"
+ban:
+  kick_time: "&cVáš ban za tento priestupok: %reason% vyprší za %time% ban udelil: %by%."
+  kick_def: "&cDostali ste ban na stálo dôvod: %reason% ban udelil %by%."
+  help:
+  # For the time, there is:
+  # y : roky
+  # mo : mesiace
+  # d : dni
+  # h : hodiny
+  # m : minuty
+  # s : sekundy
+  #
+  - "/nban <player> <def | time (ex: 2h5d)> <reason> : Zabanuje vami vybraného hráča"
+  well_ban: "&a[&2Negativity&a]&c %name% bol zabanovaný z dôvodu: %reason%."
+unban:
+  well_unban: "&a[&2Negativity&a]&c %name% bol odbanovaný."
+  not_banned: "&c%name% nie je zabanovaný."
+  not_exact: "%arg% nemá ban."
+  help: "/nunban <player> : Zruší ban hráčovi."
+kick:
+  help: "/kick <meno_hrača> <dôvod> : Vyhodí vami zadaného hráča"
+  well_kick: "&a[&2Negativity&a]&c %name% bol vyhodený z dôvodu: %reason%."
+  kicked: "Boli ste vyhodený %name% z dôvodu %reason%"
+report:
+  report_usage: "/report <meno_hrača> <dôvod>"
+  well_report: "&a%name% nahlásenie bolo úspešné !"
+  report_message: "&a[&2Negativity&a] &c%name% &7bol nahlásený. Odkaz: &c%report% &7dôvod: &c%reason%"
+negativity:
+  alert: "&a[&2Negativity&a] &c%name%&7 pravdepodobne používa tento cheat &c%cheat% &7(&2Pravdepodobnosť: %reliability%%&7) !"
+  alert_multiple: "&a[&2Negativity&a] &c%name%&7 pravdepodobne použil cheat &c%cheat% %nb% -krát &7(&2Pravdepodobnosť: %reliability%%&7) !"
+  alert_hover: "&6Pravdepodobnosť: %reliability%%\nOdozva: %ping%"
+  no_alerts: "&a[&2Negativity&a] Žiadne správy k zobrazeniu."
+  reload_done: "&a[&2Negativity&a] Plugin sa znovunačítal."
+  verif:
+    invalid_cheat: "%arg% nie je známy cheat"
+    start: "&a[&2Negativity&a] &7Spúštam analýzu hráča %name% na cheat %cheat%"
+    start_all: "&a[&2Negativity&a] Začala analýza hráča %name%"
+    start_none: "&a[&2Negativity&a] &cAnalýza sa nepodarila"
+    help:
+      - "/negativity verif <player> [cheats...] : Spustí analýzu (či hráč mal/má cheaty)"
+      - "/negativity <player> : Informácie o danom hráčovi"
+inventory:
+  close: "Zatvoriť"
+  back: "Späť"
+  reset_alert: "Zmazať upozornenia"
+  main:
+    freeze: "&a[&2Negativity&a] Zamrazil ťa: %name%"
+    unfreeze: "&a[&2Negativity&a] Odmrazil ťa: %name%"
+    actual_click: "Aktuálny počet klikov : %clicks%"
+    max_click: "Maximálny počet klikov : %clicks%"
+    last_click: "Kliky za sekundu: %clicks%"
+    ping: "Ping hráča: %name% Odozva: %ping%"
+    see_inv: "Zobrazujem invnetár hráča %name%"
+    teleportation_to: "Teleportujem na hráča %name%"
+    freezing: "Zamrazujem hráča: %name%"
+    active_detection: "Aktívna detekcia hráča: %name%"
+    see_alerts: "Podozrenia pre hráča: %name%"
+    mcleaks_indicator:
+      positive: "&cPoužíva MCLeaks"
+      negative: "&aNepoužíva MCLeaks"
+      description: "&7MCLeaks poskytuje kradnuté minecraft účty zdarma"
+  detection:
+    name_inv: "Aktivovať detekciu"
+    no_active: "Žiadna aktívna detekcia pre hráča: %name%"
+  alerts:
+    item_name: "Upozornienia %exact_name% : %warn%"
+    inv_name: "Upozornienia"
+  mod:
+    night_vision: "Nočné videnie"
+    invisible: "Neviditeľnosť"
+    random_tp: "Náhodný teleport"
+    clear_inv: "Vyčistiť inventár"
+    inv_cleared: "Inventár vyčistený !"
+    vision_removed: "Nočné videnie vypnuté"
+    vision_added: "Nočné videnie zapnuté"
+    now_invisible: "Momentálne si neviditeľný"
+    no_longer_invisible: "Už nie si neviditeľný"
+    you_are_freeze: "You are freezed. You cannot leave this inventory."
+    cheat_manage: "Cheat manager"
+  manager:
+    enabled: "&aZapnuté"
+    disabled: "&cVypnuté"
+    setBack: "Cancels the last action of the cheat when one is detected: &l%back%"
+    autoVerif: "Automatická verifikácia: &l%auto%"
+    allowKick: "Vyhodiť podvádzajúcich: &l%allow%"
+    setActive: "Aktívne cheaty: &l%active%"
