@@ -1,0 +1,19 @@
+alert: "&a[&2Negativity&a] &c%name%&7 pravdepodobne používa cheat &c%cheat% &7(&2Pravdepodobnosť: %reliability%%&7) !"
+alert_multiple: "&a[&2Negativity&a] &c%name%&7 pravdepodobne použil cheat &c%cheat% %nb% -krát &7(&2Pravdepodobnosť: %reliability%%&7) !"
+alert_hover: "&6Pravdepodobnosť: %reliability%\nOdozva %ping%"
+alert_tp_info: "&7Klikni pre teleport k &o%playername%"
+report: "&a[&2Negativity&a] &c%name% &7bol nahlásený za: &c%report% &7dôvod &c%reason%"
+ban:
+  kick_time: "&cMáš ban, dôvod banu: %reason% ban vyprší: %time% ban udelil %by%."
+  kick_def: "&cMáš ban nastárlo. dôvod: %reason% .Ban udelil: %by%."
+  help:
+  # For the time, there is:
+  # y : roky
+  # mo : mesiace
+  # d : dni
+  # h : hodiny
+  # m : minuty
+  # s : seckundy
+  #
+  - "/ban <player> <def(true/false) | čas (ex: 2h)> <dôvod> : Zabanuje definovaného hráča"
+  well_ban: "&a[&2Negativity&a]&c %name% bol zabanovaný z dôvodu %reason%."
