@@ -15,8 +15,8 @@ lang:
   invalid_lang: "%arg% je neznámy jazyk !"
   help: "/lang <jazyk> : Zmení pôvodný jazyk"
   current: "Aktuálny jazyk je %lang%"
-  language_set: "&a[&2Negativity&a] &7The messages of Negativity are now in english"
-  translation_disabled: "&a[&2Negativity&a] &cPer-player translations are disabled"
+  language_set: "&a[&2Negativity&a] &7Jazyk bol úspešne zmenený"
+  translation_disabled: "&a[&2Negativity&a] &cPreklady sú vypnuté"
 ban:
   kick_time: "&cVáš ban za tento priestupok: %reason% vyprší za %time% ban udelil: %by%."
   kick_def: "&cDostali ste ban na stálo dôvod: %reason% ban udelil %by%."
